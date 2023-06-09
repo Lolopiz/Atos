@@ -1,0 +1,61 @@
+.icon ul {
+    list-style: none;
+
+  }
+
+.icon{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: auto;
+}
+
+  .icon li {
+    display: flex;
+    position: relative;
+    width: 100px;
+    border: solid;
+    background-color: aliceblue;
+    box-shadow: 3px 4px 2px #000;
+    margin: 10px;
+    text-align: center;
+    transition: all 1s ease;
+  }
+
+  .icon li svg {
+    position: absolute;
+    right: 40%;
+    transition: all 1s ease;
+  }
+
+  .icon li a {
+    margin-left: 5px;
+    visibility: hidden;
+    color: whitesmoke;
+  }
+
+  .icon li:hover a {
+    transition-delay: 0.5s;
+    visibility: visible;
+  }
+
+  .icon li:hover svg {
+    right: 5px; 
+  }
+
+
+  .yt_ft {
+    background-image: linear-gradient(to right , red , #c00);
+  }
+
+  .link_ft {
+    background-image: linear-gradient(to right , #0a66c2 , #378fe9);
+  }
+  .insta_ft {
+    background-image: linear-gradient(to bottom right , #7638fa ,#ff7a00, #ff0169);
+  }
+
+  .twitter_ft {
+    background-image: linear-gradient(to right , #3dc1ff, #4dccff);
+
+  }
